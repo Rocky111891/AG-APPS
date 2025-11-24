@@ -1,0 +1,68 @@
+# Market Voyager Terminal 🚀
+
+A professional-grade financial dashboard built with Python Dash and Mantine Components, featuring real-time market data, interactive charts, and historical crisis analysis.
+
+![Market Voyager](https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-1.png)
+
+## ✨ Features
+
+- **Real-Time Data**: Live market prices via Yahoo Finance API (no mock data!)
+- **Global Coverage**: Track 15+ major assets including:
+  - **Indices**: S&P 500, NASDAQ, Dow Jones, FTSE 100, Nikkei 225, etc.
+  - **Commodities**: Gold, Crude Oil
+  - **Crypto**: Bitcoin
+- **Interactive Charts**: Dynamic Plotly charts with zoom, pan, and hover details.
+- **Crisis Analysis**: Compare current performance against historical crashes (Dot-com, 2008, COVID-19).
+- **Smart Widgets**:
+  - Live Ticker Tape
+  - VIX Volatility Gauge
+  - Trending Tickers
+  - News Feed with Text-to-Speech
+- **Premium UI**: Dark mode, glassmorphism effects, and responsive design.
+
+## 🚀 Quick Start (Windows)
+
+The easiest way to run the application is using the included batch script:
+
+1. **Double-click** `run_dashboard.bat`
+2. The app will automatically install dependencies and launch in your browser.
+
+## 🛠️ Manual Installation
+
+If you prefer running from the command line:
+
+1. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Run the Application**:
+   ```bash
+   python app.py
+   ```
+   *Note: You may need to use `py app.py` or `python3 app.py` depending on your system.*
+
+3. **Access**:
+   Open your browser to `http://127.0.0.1:8050`
+
+## 📂 Project Structure
+
+```
+MarketVoyagerTerminal/
+├── app.py                 # Main application logic
+├── requirements.txt       # Python dependencies
+├── run_dashboard.bat      # One-click startup script
+├── assets/
+│   └── style.css         # Custom styling
+└── README.md             # This file
+```
+
+## 🔧 Troubleshooting
+
+- **"Python not found"**: Ensure Python is installed and added to your system PATH.
+- **"Site can't be reached"**: Make sure the script window stays open. The server stops if you close it.
+- **Data Loading Issues**: Check your internet connection as data is fetched live from Yahoo Finance.
+
+## 📝 License
+
+This project is for educational purposes. Data provided by Yahoo Finance.
